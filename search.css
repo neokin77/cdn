@@ -1,0 +1,135 @@
+	select{
+		border:none;
+	box-shadow: inset 1px 0px 7px red;}
+	 #bar-m{
+    margin-top: 0.5rem;
+    box-shadow: inset 1px 0px 7px #ff00007a;
+}
+	select, input {
+    background-color: #171718;
+		
+	}
+	#centralanimestkaba option, input:focus, select:focus {
+    background: #171718;
+   
+}
+	.fs-label-wrap {
+    position: relative;
+    background-color: transparent!important;
+    border: none!important;
+    cursor: default;
+    color: aliceblue!important;
+}
+.fs-dropdown .fs-options {
+    max-height: 200px;
+    overflow: auto;
+    display: grid;
+    justify-content: space-around;
+}
+.fs-dropdown {
+    width: 100%;
+    position: absolute;
+    background-color: #171718!important;
+    border: none!important;
+    border-top: none!important;
+    z-index: 1000;
+    color: aliceblue!important;
+    box-shadow: inset 0px 0px 4px red!important;
+}
+.fs-search {
+    background-color: transparent!important;
+    padding: 0 8px;
+}
+.fs-wrap {
+        box-shadow: 0px 0px 4px red;
+    width: 220px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    line-height: inherit!important;
+    text-align: center!important;
+}
+.fs-wrap .fs-search input {
+    border: none;
+    box-shadow: none;
+    background-color: #1b1b1c!important;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.facetwp-facet {
+    width:100% !important;
+}
+.fs-wrap {
+    width: 100%!important;
+    
+}
+ select.facetwp-dropdown {
+    padding: 0px!important;
+ }
+ .facetwp-facet {
+    width: 50% !important;
+    float: left;
+    display: grid;
+}
+.facetwp-facet.facetwp-facet-pesquisa.facetwp-type-search{
+        width: 100%!important;
+    margin-top: 0.5rem;}
+.facetwp-facet select.facetwp-dropdown{
+        background-color: transparent!important;
+    border-radius: 3px;
+    color: #f7f7f7;
+    box-shadow: 0px 0px 4px red;}
+    .facetwp-facet select.facetwp-dropdown option{
+        background:#171718!important}
+        
+        .facetwp-facet select.facetwp-dropdown:after{
+            width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    margin: auto;
+    transition: ease-in 0.15s;
+            }
+            .facetwp-facet input.facetwp-search{
+    margin: 0;
+    padding-right: 30px;
+    min-width: 240px;
+    box-shadow: inset 1px 0px 7px #ff00007a;
+    background: transparent !important;
+    text-align: center;
+}
+.fs-wrap.single .fs-option.selected {
+    background-color: #dff3ff;
+    display: none;
+}
+.paginadorplay {
+    bottom: -30px!important;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.facetwp-facet {
+    margin-bottom: 5px!important;
+}
+@media (max-width: 600px){
+   .fs-wrap.multiple .fs-checkbox {
+   
+}
+.facetwp-facet select.facetwp-dropdown option{
+    white-space: nowrap;
+    overflow: hidden!important;
+    text-overflow: ellipsis;
+    }
+}
